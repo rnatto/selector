@@ -10,9 +10,7 @@ from sklearn.tree import export_graphviz
 from sklearn.decomposition import PCA
 from IPython.display import Image
 from sklearn.svm import LinearSVC
-
 from sklearn import preprocessing
-import inspect
 from scipy.io import arff
 import pandas as pd
 import numpy as np
@@ -87,36 +85,5 @@ drop_features = [
 X = df.drop(drop_features, axis=1)
 Y = df.Result
 min_max_scaler = preprocessing.MinMaxScaler()
-# with pd.option_context('display.max_rows', None, 'display.max_columns', None):
-# print(min_max_scaler.fit_transform(X))
-X = min_max_scaler.fit_transform(X)
-
-# X = pd.get_dummies(X)
-k_values = [
-    5, 10, 15, 20, 25, 30, 'all'
-]
-methods = [f_classif, chi2
-           ]
-classifiers = [
-    LogisticRegression(random_state=0, solver='saga',
-                       multi_class='multinomial'),
-    DecisionTreeClassifier(random_state=0),
-    LinearSVC(random_state=0, tol=1e-5)
-]
-
-# selector = RFECV(estimator, step=1, cv=5)
-
-# TODO:
-# Remover features textuais - done
-# Rodar com os mesmos algoritmos
-# Rodar com RFECV
-for k_value in k_values:
-    print('K', k_value)
-    for method in methods:
-        print('Method', method.func_name)
-        X_new = SelectKBest(method, k=k_value).fit_transform(X, Y)
-        for classify in classifiers:
-            scores = cross_val_score(
-                classify, X_new, Y, cv=5, scoring='f1_macro')
-            print(type(classify).__name__, scores)
-    print('@@----@@')
+with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+    print(min_max_scaler.fit_transform(X, Y))
