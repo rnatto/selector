@@ -95,21 +95,17 @@ X = min_max_scaler.fit_transform(X)
 k_values = [
     5, 10, 15, 20, 25, 30, 'all'
 ]
-methods = [f_classif, chi2
-           ]
+methods = [f_classif, chi2]
 classifiers = [
-    LogisticRegression(random_state=0, solver='saga',
-                       multi_class='multinomial'),
+    LogisticRegression(random_state=0, solver='saga', multi_class='multinomial'),
     DecisionTreeClassifier(random_state=0),
     LinearSVC(random_state=0, tol=1e-5)
 ]
-
-# selector = RFECV(estimator, step=1, cv=5)
-
-# TODO:
+# region TODO:
 # Remover features textuais - done
 # Rodar com os mesmos algoritmos
 # Rodar com RFECV
+# endregion
 for k_value in k_values:
     print('K', k_value)
     for method in methods:
