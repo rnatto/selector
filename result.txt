@@ -1,71 +1,95 @@
-(9831, 48)
-('K', 5)
-('Method', 'f_classif')
-('LogisticRegression', array([0.50687851, 0.52288606, 0.75373695, 0.73537799, 0.80313383]))
-('DecisionTreeClassifier', array([0.50687851, 0.52288606, 0.75373695, 0.73537799, 0.80313383]))
-('LinearSVC', array([0.50687851, 0.52288606, 0.75373695, 0.55310477, 0.69915728]))
-('Method', 'chi2')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.63376046, 0.6964325 , 0.6511485 ]))
-('DecisionTreeClassifier', array([0.60497249, 0.52963951, 0.69870158, 0.5818382 , 0.63351805]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.63376046, 0.6964325 , 0.6489664 ]))
-@@----@@
-('K', 10)
-('Method', 'f_classif')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('DecisionTreeClassifier', array([0.5963394 , 0.53810444, 0.64667001, 0.7679171 , 0.69736849]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79625379]))
-('Method', 'chi2')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('DecisionTreeClassifier', array([0.59712338, 0.52490417, 0.65234306, 0.6801846 , 0.68022382]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79625379]))
-@@----@@
-('K', 15)
-('Method', 'f_classif')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79625379]))
-('DecisionTreeClassifier', array([0.58810473, 0.53405586, 0.68151748, 0.71687788, 0.68842321]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79625379]))
-('Method', 'chi2')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('DecisionTreeClassifier', array([0.58172171, 0.52747247, 0.58638391, 0.68700837, 0.67852522]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79625379]))
-@@----@@
-('K', 20)
-('Method', 'f_classif')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79625379]))
-('DecisionTreeClassifier', array([0.57065027, 0.52747247, 0.65051351, 0.71238759, 0.70038673]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79625379]))
-('Method', 'chi2')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('DecisionTreeClassifier', array([0.58051669, 0.51586696, 0.61264553, 0.69180812, 0.66664213]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-@@----@@
-('K', 25)
-('Method', 'f_classif')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('DecisionTreeClassifier', array([0.57123377, 0.51151743, 0.62645099, 0.65661303, 0.61624621]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('Method', 'chi2')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('DecisionTreeClassifier', array([0.57986449, 0.52058534, 0.63509814, 0.67942009, 0.63219327]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-@@----@@
-('K', 30)
-('Method', 'f_classif')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('DecisionTreeClassifier', array([0.59704297, 0.51186222, 0.65234306, 0.64557082, 0.63703719]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('Method', 'chi2')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('DecisionTreeClassifier', array([0.60038882, 0.51256079, 0.63689421, 0.64650132, 0.65399222]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-@@----@@
-('K', 'all')
-('Method', 'f_classif')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('DecisionTreeClassifier', array([0.5980236 , 0.51510762, 0.65123293, 0.65066586, 0.66929489]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('Method', 'chi2')
-('LogisticRegression', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-('DecisionTreeClassifier', array([0.5980236 , 0.51510762, 0.65123293, 0.65066586, 0.66929489]))
-('LinearSVC', array([0.50687851, 0.52113448, 0.75373695, 0.73537799, 0.79965788]))
-@@----@@
+
+
+{'f_classif': {'LogisticRegression100': 0.6644026665069627}}
+{'f_classif': {'DecisionTreeClassifier100': 0.6682965278587607}}
+{'f_classif': {'LinearSVC100': 0.6678153527994464}}
+{'chi2': {'LogisticRegression100': 0.6644026665069627}}
+{'chi2': {'DecisionTreeClassifier100': 0.6651561849974148}}
+{'chi2': {'LinearSVC100': 0.6680260090651593}}
+{'f_classif': {'LogisticRegression200': 0.6407007268928215}}
+{'f_classif': {'DecisionTreeClassifier200': 0.6765178152734794}}
+{'f_classif': {'LinearSVC200': 0.6350972687015357}}
+{'chi2': {'LogisticRegression200': 0.6344310911016537}}
+{'chi2': {'DecisionTreeClassifier200': 0.6766373161306258}}
+{'chi2': {'LinearSVC200': 0.6350972687015357}}
+{'f_classif': {'LogisticRegression300': 0.6110783891416526}}
+{'f_classif': {'DecisionTreeClassifier300': 0.6373540404745166}}
+{'f_classif': {'LinearSVC300': 0.6377938392399249}}
+{'chi2': {'LogisticRegression300': 0.6110783891416526}}
+{'chi2': {'DecisionTreeClassifier300': 0.6366947459888064}}
+{'chi2': {'LinearSVC300': 0.6377938392399249}}
+{'f_classif': {'LogisticRegression400': 0.6040010251793154}}
+{'f_classif': {'DecisionTreeClassifier400': 0.6383073918333203}}
+{'f_classif': {'LinearSVC400': 0.6296947658236405}}
+{'chi2': {'LogisticRegression400': 0.6040725412998101}}
+{'chi2': {'DecisionTreeClassifier400': 0.6337317779546592}}
+{'chi2': {'LinearSVC400': 0.6296947658236405}}
+{'f_classif': {'LogisticRegression500': 0.6023525094254483}}
+{'f_classif': {'DecisionTreeClassifier500': 0.6379569530515854}}
+{'f_classif': {'LinearSVC500': 0.6323448050222148}}
+{'chi2': {'LogisticRegression500': 0.6024240255459432}}
+{'chi2': {'DecisionTreeClassifier500': 0.6321306344404727}}
+{'chi2': {'LinearSVC500': 0.6323448050222148}}
+{'f_classif': {'LogisticRegression1000': 0.5962682928344039}}
+{'f_classif': {'DecisionTreeClassifier1000': 0.604945861223159}}
+{'f_classif': {'LinearSVC1000': 0.5991257451349251}}
+{'chi2': {'LogisticRegression1000': 0.5952297824427724}}
+{'chi2': {'DecisionTreeClassifier1000': 0.609429231571722}}
+{'chi2': {'LinearSVC1000': 0.598715347934481}}
+{'f_classif': {'LogisticRegression2000': 0.5893223017361233}}
+{'f_classif': {'DecisionTreeClassifier2000': 0.5988269631775347}}
+{'f_classif': {'LinearSVC2000': 0.5785312225376629}}
+{'chi2': {'LogisticRegression2000': 0.5893223017361233}}
+{'chi2': {'DecisionTreeClassifier2000': 0.606653106963926}}
+{'chi2': {'LinearSVC2000': 0.5785312225376629}}
+{'f_classif': {'LogisticRegression3000': 0.632661789565996}}
+{'f_classif': {'DecisionTreeClassifier3000': 0.5933293593757332}}
+{'f_classif': {'LinearSVC3000': 0.6177770261863633}}
+{'chi2': {'LogisticRegression3000': 0.6277462129923641}}
+{'chi2': {'DecisionTreeClassifier3000': 0.6036765961871416}}
+{'chi2': {'LinearSVC3000': 0.616845351761083}}
+{'f_classif': {'LogisticRegression4000': 0.6311891352299658}}
+{'f_classif': {'DecisionTreeClassifier4000': 0.5973506329438166}}
+{'f_classif': {'LinearSVC4000': 0.6245000797982087}}
+{'chi2': {'LogisticRegression4000': 0.6296180059618035}}
+{'chi2': {'DecisionTreeClassifier4000': 0.6124049188527843}}
+{'chi2': {'LinearSVC4000': 0.6245000797982087}}
+{'f_classif': {'LogisticRegression5000': 0.6299159843510653}}
+{'f_classif': {'DecisionTreeClassifier5000': 0.6014578706336408}}
+{'f_classif': {'LinearSVC5000': 0.6288365238904703}}
+{'chi2': {'LogisticRegression5000': 0.6299159843510653}}
+{'chi2': {'DecisionTreeClassifier5000': 0.6068894151941018}}
+{'chi2': {'LinearSVC5000': 0.6287577152674293}}
+{'f_classif': {'LogisticRegression10000': 0.6367508258127953}}
+{'f_classif': {'DecisionTreeClassifier10000': 0.617818118580373}}
+{'f_classif': {'LinearSVC10000': 0.6350721439153693}}
+{'chi2': {'LogisticRegression10000': 0.6367508258127953}}
+{'chi2': {'DecisionTreeClassifier10000': 0.617818118580373}}
+{'chi2': {'LinearSVC10000': 0.6350721439153693}}
+{'f_classif': {'LogisticRegression15000': 0.6393541104900148}}
+{'f_classif': {'DecisionTreeClassifier15000': 0.6126033071408642}}
+{'f_classif': {'LinearSVC15000': 0.6354727311059024}}
+{'chi2': {'LogisticRegression15000': 0.6393541104900148}}
+{'chi2': {'DecisionTreeClassifier15000': 0.6126033071408642}}
+{'chi2': {'LinearSVC15000': 0.6354727311059024}}
+{'f_classif': {'LogisticRegression20000': 0.639262758346151}}
+{'f_classif': {'DecisionTreeClassifier20000': 0.6140136899440651}}
+{'f_classif': {'LinearSVC20000': 0.6358232522042455}}
+{'chi2': {'LogisticRegression20000': 0.639262758346151}}
+{'chi2': {'DecisionTreeClassifier20000': 0.6140136899440651}}
+{'chi2': {'LinearSVC20000': 0.6358232522042455}}
+{'f_classif': {'LogisticRegression-all': 0.6391925588733762}}
+{'f_classif': {'DecisionTreeClassifier-all': 0.6065232698703533}}
+{'f_classif': {'LinearSVC-all': 0.63304412265311}}
+{'chi2': {'LogisticRegression-all': 0.6391925588733762}}
+{'chi2': {'DecisionTreeClassifier-all': 0.6065232698703533}}
+{'chi2': {'LinearSVC-all': 0.63304412265311}}
+
+// RFCEV
+
+
+
+
+
+
+
