@@ -93,11 +93,16 @@ X = min_max_scaler.fit_transform(X)
 
 # X = pd.get_dummies(X)
 k_values = [
-    5, 10, 15, 20, 25, 30, 'all'
+    100, 200,
+    300, 400,
+    500,
+    1000, 2000, 3000, 4000, 5000,
+    10000, 15000, 20000, 25000, 'all'
 ]
 methods = [f_classif, chi2]
 classifiers = [
-    LogisticRegression(random_state=0, solver='saga', multi_class='multinomial'),
+    LogisticRegression(random_state=0, solver='saga',
+                       multi_class='multinomial'),
     DecisionTreeClassifier(random_state=0),
     LinearSVC(random_state=0, tol=1e-5)
 ]
@@ -107,12 +112,21 @@ classifiers = [
 # Rodar com RFECV
 # endregion
 for k_value in k_values:
-    print('K', k_value)
+    # print('K')
+    # print(k_value)
     for method in methods:
-        print('Method', method.func_name)
+        # print('Method')
+        # print(method.func_name)
         X_new = SelectKBest(method, k=k_value).fit_transform(X, Y)
         for classify in classifiers:
             scores = cross_val_score(
                 classify, X_new, Y, cv=5, scoring='f1_macro')
-            print(type(classify).__name__, scores)
-    print('@@----@@')
+            # print(type(classify).__name__)
+            # print(scores)
+            mtd = {}
+            KResult = {}
+            clf = {}
+            clf[type(classify).__name__ + str(k_value)] = np.mean(scores)
+            mtd[method.func_name] = clf
+            # KResult[k_value] = mtd
+            print(mtd)
